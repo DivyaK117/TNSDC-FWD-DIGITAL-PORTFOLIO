@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <main class="blog-list">
+        <article class="blog-card">
+            <h2>First Blog Post</h2>
+            <p>This is a short description of the first blog post...</p>
+            <a href="post.html">Read More</a>
+        </article>
+        <article class="blog-card">
+            <h2>Second Blog Post</h2>
+            <p>This is a short description of the second blog post...</p>
+            <a href="post.html">Read More</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main class="post-container">
+        <article>
+            <h2>First Blog Post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lorem nec nulla bibendum gravida.</p>
+        </article>
+
+        <section class="comments-section">
+            <h3>Comments</h3>
+            <ul id="comment-list"></ul>
+
+            <form id="comment-form">
+                <input type="text" id="username" placeholder="Your Name" required>
+                <textarea id="comment" placeholder="Your Comment" required></textarea>
+                <button type="submit">Add Comment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
